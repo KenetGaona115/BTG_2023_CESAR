@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Comic;
+    src: url("SuperComic.ttf");
+}
+
+@font-face {
+    font-family: November;
+    src: url("inf.otf");
+}
+
+h1 {
+    font-family: Comic;
+}
+
+p {
+    font-family: November;
+}
+
+a {
+    font-family: November;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -163,6 +185,7 @@ section {
 }
 
 h2 {
+    font-family: Comic;
     font-size: 18px;
     font-weight: bold;
     margin-top: 0;
